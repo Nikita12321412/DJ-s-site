@@ -5,41 +5,41 @@ body {
     line-height: 1.6;
     position: relative;
     background: #151718;
-  }
+}
 
 
-  * {
+* {
     box-sizing: border-box;
-  }
-  
-  p {
+}
+
+p {
     margin: 0;
     padding: 0;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
-  }
+}
 
-  .containerStep4 {
-      width: 1256px;
-      height: 100%;
-      margin: 0 auto;
-  }
+.containerStep4 {
+    width: 1256px;
+    height: 100%;
+    margin: 0 auto;
+}
 
-  .paymentAndTariffs {
+.paymentAndTariffs {
     padding: 0 64px;
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-  }
+}
 
-  .paymentCard {
+.paymentCard {
     width: 273px;
     height: 510px;
     background: #2f3033;
@@ -48,27 +48,27 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
 
-  .tariffHeader {
+.tariffHeader {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
     margin-bottom: 27px;
-  }
+}
 
-  .tariffPrice {
+.tariffPrice {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 26px;
     text-align: center;
     margin-bottom: 4px;
-  }
+}
 
-  .tariffdescription {
+.tariffdescription {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -76,45 +76,45 @@ body {
     text-align: center;
     color: #aaaaab;
     margin-bottom: 24px;
-  }
+}
 
-  .tariffdescription span {
+.tariffdescription span {
     color: #FF8710;
-  }
+}
 
-  .tariffAdvantages {
+.tariffAdvantages {
     margin-left: 0;
-  }
+}
 
-  .tariffAdvantages ul {
+.tariffAdvantages ul {
     list-style-type: none;
     padding: 0;
-  }
+}
 
-  .tariffAdvantages li {
+.tariffAdvantages li {
     display: flex;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 10px;
-  }
+}
 
-  .tariffAdvantages img {
+.tariffAdvantages img {
     margin-right: 12px;
-  }
+}
 
-  .popularCard {
+.popularCard {
     position: relative;
-  }
+}
 
-  .substraction {
+.substraction {
     height: 26px;
     background: #2f3033;
     border-radius: 20px 20px 0 0;
-  }
+}
 
-  .theMostPopular {
+.theMostPopular {
     position: absolute;
     width: 100%;
     height: 60px;
@@ -122,9 +122,10 @@ body {
     border-radius: 20px 20px 10px 10px;
     top: -35px;
     left: 0;
-  }
+    z-index: -1;
+}
 
-  .theMostPopular p {
+.theMostPopular p {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -133,9 +134,9 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 9px;
-  }
+}
 
-  .ctaButton {
+.ctaButton {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -147,4 +148,12 @@ body {
     border-radius: 50px;
     text-decoration: none;
     color: #fff;
-  }
+}
+
+.paymentCardWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
