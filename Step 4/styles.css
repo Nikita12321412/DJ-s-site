@@ -88,17 +88,62 @@ body {
 
   .tariffAdvantages ul {
     list-style-type: none;
-    list-style-image: url('images/advMarker.svg');
     padding: 0;
-    margin-left: 23px;
   }
 
   .tariffAdvantages li {
+    display: flex;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
+  }
+
+  .tariffAdvantages img {
+    margin-right: 12px;
+  }
+
+  .popularCard {
+    position: relative;
+  }
+
+  .backgroundPro {
+    position: absolute;
+    height: 76px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2f3033;
+    border-radius: 20px;
+    z-index: 1;
+  }
+
+  .substraction {
+    height: 26px;
+    background: #2f3033;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .theMostPopular {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background: #2a2a2b;
+    border-radius: 20px 20px 10px 10px;
+    top: -35px;
+    left: 0;
+  }
+
+  .theMostPopular p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a7a7a7;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
   }
 
   .ctaButton {
